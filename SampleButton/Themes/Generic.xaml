@@ -9,7 +9,7 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type local:MaterialDesignButton}">
-                    <Grid x:Name="PART_grid">
+                    <Grid x:Name="PART_grid" ClipToBounds="True">
                         <Border  Background="#6200ee" CornerRadius="4" x:Name="PART_border">
                             <Border.Effect>
                                 <DropShadowEffect  BlurRadius="6" Direction="-90" RenderingBias="Quality" ShadowDepth="0" x:Name="shadowEffect" />
