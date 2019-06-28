@@ -7,6 +7,5 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="300" Width="400">
     <Grid VerticalAlignment="Center">
-        <local:MaterialDesignButton Width="86" Height="30">BUTTON</local:MaterialDesignButton>
     </Grid>
 </Window>
